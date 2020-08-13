@@ -38,7 +38,7 @@ def conversor(tipo_pesos, valor_dollar):
 
 menu = """
 Bienvenido al conversor de monedas 💲
-
+Nuestro mejor conversor
 1- Pesos mexicanos
 2- Pesos argentino
 3- Pesos colombiano
