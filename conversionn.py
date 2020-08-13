@@ -33,7 +33,7 @@ def conversor(tipo_pesos, valor_dollar):
     print("Tienes $" + dollars + " dollars ")
 
 
-
+#conversion con condicional
 
 
 menu = """
