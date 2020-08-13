@@ -25,3 +25,7 @@ nombre="Rafael"
 print(nombre[0:3])
 print(nombre[0:5:2])
 print(nombre[::-1])
+
+
+
+
