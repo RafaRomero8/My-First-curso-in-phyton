@@ -1,8 +1,32 @@
 
-def runi():
-    for i in range(1000):
-        print(i)
-        if i == 5678:
+def run():
+    i = 0
+    testo = input("Escibe un texto: ")
+    while i < len(testo):
+        letra = testo[i]
+        print(letra, end = ' ')
+        i+=1
+
+
+
+
+
+
+
+   # texto = input("Escribe un texto: ")
+    #for letra in texto:
+     #   if letra == 'o':#cuando se encuntre con la letra o se corta
+      #      break
+       # print(letra)
+
+
+
+
+
+   # for i in range(10000):
+    #    print(i)
+     #   if i == 5678:
+      #      break #se para el ciclo en el momento que nosotros queranmos en este caso en el numero 5678
 
 
 
@@ -22,4 +46,4 @@ def runi():
 #ejemplo de ciclo con break y continue
 
 if __name__ == '__main__':
-    runi()
+    run()
