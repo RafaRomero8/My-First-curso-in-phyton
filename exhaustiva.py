@@ -1,8 +1,8 @@
 def run():
-    objetivo = int(input('escoge un numero'))
-    epsilon = 0.0001 #presicion que queremos
-    paso = epsilon**2 #mas pequeño que epsilon
-    respuesta = 0.0 #variable para guardar la respuesta
+    objetivo = int(input('escoge un numero'))#quiero encontrar la rai cuadrada de un numereo random
+    epsilon = 0.0001 #presicion que queremos(acepto una incertidumbre del1%)
+    paso = epsilon**2 #mas pequeño que epsilon,debemos recorrer un tramo probando as posibles soluciones
+    respuesta = 0.0 #variable para guardar la respuesta,que empezara a evaluar en el recorrido
 
     while abs(respuesta**2 - objetivo) >= epsilon and respuesta <= objetivo:  # conforme el valor absoluto sde acerca a epsilon se va a llegar mas cerca
         #abs()regresa el valor absoluto
