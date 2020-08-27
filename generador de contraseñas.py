@@ -18,7 +18,7 @@ def generar_contrasena():#definir una funcion con simbolos y caracteres
     return contrasena #join para generar el string unidos con una solacadena
                       #La función join convierte una lista en una cadena formada por
                       #los elementos de la lista separados por comas
-                      #juntar todos los caracteres en una sola cadena 
+                      #juntar todos los caracteres en una sola cadena
 
 def run():
     contrasena = generar_contrasena()
