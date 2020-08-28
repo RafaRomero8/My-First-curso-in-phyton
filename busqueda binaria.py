@@ -1,4 +1,5 @@
 def run():
+    
     #solo funciona cuando el conjunto esta ordenado
     objetivo = int(input('escoge un numero'))
     epsilon = 0.01
