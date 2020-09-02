@@ -50,5 +50,7 @@ def run():
         print(f'la raiz de {objetivo} es {respuesta}')
     else:
         print('ingrese una opcion correcta')
-if __name__ == '__main__':
+
+
+if __name__=='__main__':
         run()
