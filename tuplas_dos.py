@@ -1,4 +1,5 @@
 def run():
+    """
     def coordenadas():
         return (5,4)
 
@@ -29,8 +30,22 @@ def run():
         print('------------')
         print(k + 1)
 #el contenido de las tuplas  pueden ser de tipo int,float y string
+   """
 
+    # lista
+    a = [1,2,3]
+    c =list(a) # para clonar la lista (sintaxis)
+    print(c)
+    d = a[::]
+    print(d)# otra forma de clonar lista
 
+    my_list = list(range(20))
+    print(my_list)
+    double = [i * 2 for i in my_list] #notacion de list comperhension  se define la peracion que queremos(i * 2)
+    print(double)
+
+    pares =[i for i in my_list if i % 2 == 0]# se aplica el filtro es decir if i % ...
+    print(pares)
 
 
 
